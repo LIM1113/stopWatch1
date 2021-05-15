@@ -31,7 +31,7 @@ function clockBtn(){
   }
 
 start.addEventListener('click',function(){
-  inter = setInterval(clockBtn,300);
+  inter = setInterval(clockBtn,1000);
 })
 
 stop.addEventListener('click',function(){
