@@ -31,7 +31,7 @@ function clickFn(){
 //-> 중복되는 코드가 많음.
 
 start.addEventListener('click',function(){
-  interval = setInterval(clickFn, 400);
+  interval = setInterval(clickFn, 1000);
 });  //--> 한번 이상 클릭 시 오류 발생,,
 
 stop.addEventListener('click',function(){
@@ -53,7 +53,7 @@ reset.addEventListener('click',function(){
 
 /*
 **추가 기능 구상**
--> 디자인 추가
--> 추가적으로 숫자클릭 시 숫자가 기록되는 기능 추가
+-> 디자인
 -> 밀리초 추가
+-> record 기능
 */
